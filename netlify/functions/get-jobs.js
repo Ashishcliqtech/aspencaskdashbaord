@@ -25,7 +25,7 @@ exports.handler = async function (event, context) {
   }
 
   // Replace with your Google Apps Script URL for fetching job positions
-  const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbx3mCGya67o1kqWVtgU1ZTs2j3ELT1f2cv--QCMz3WxZJWbHCFEVSHTGrdDjigYZr8/exec';
+  const googleScriptUrl = 'https://script.google.com/macros/s/AKfycbx_1xTEUMaHqOXNAVPM3WjyTKG32F1MOw4hJUNM5BCnTdUjupoRk1BExvFWI65vYT-V/exec';
 
   try {
     const response = await axios.get(googleScriptUrl);
